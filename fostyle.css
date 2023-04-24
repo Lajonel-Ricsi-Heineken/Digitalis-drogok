@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .box {
+    width: 270px;
+    height: 150px;
+    background-color: #ccc;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    background-color: #ddd;
+  }
+  
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+h2{
+    text-align: center;
+}
+
+body{
+    background-image: url(16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png);
+}
